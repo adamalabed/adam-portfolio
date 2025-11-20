@@ -163,7 +163,8 @@ export default function Portfolio() {
       `}</style>
 
       {/* Navigation / Header */}
-      <header className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-start z-50 mix-blend-difference text-black md:mix-blend-normal bg-white/90 backdrop-blur-sm md:bg-transparent md:backdrop-blur-none">
+      {/* FIX: Removed mix-blend-difference from mobile to prevent black header, added proper background handling */}
+      <header className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-start z-50 text-black bg-white/90 backdrop-blur-sm md:bg-transparent md:backdrop-blur-none">
         <div className="font-medium tracking-tight text-sm md:text-base uppercase">
           <button onClick={closeCase} className="hover:opacity-60 transition-opacity text-left">
             ADAM Al-ABED
@@ -323,16 +324,17 @@ export default function Portfolio() {
             </article>
           )}
           
-          <div className="mt-32 pt-12 border-t border-black/20 flex justify-between">
+          {/* FIX: Stacked navigation buttons on mobile (flex-col) to avoid layout issues */}
+          <div className="mt-32 pt-12 border-t border-black/20 flex flex-col gap-6 md:flex-row md:justify-between md:gap-0">
             <button 
               onClick={prevCase} 
-              className={`text-sm uppercase tracking-widest hover:opacity-50 transition-opacity ${currentCaseId > 0 ? 'visible' : 'invisible'}`}
+              className={`text-sm uppercase tracking-widest hover:opacity-50 transition-opacity text-left ${currentCaseId > 0 ? 'visible' : 'invisible'}`}
             >
               ← Предыдущий кейс
             </button>
             <button 
               onClick={nextCase} 
-              className={`text-sm uppercase tracking-widest hover:opacity-50 transition-opacity ${currentCaseId < casesData.length - 1 ? 'visible' : 'invisible'}`}
+              className={`text-sm uppercase tracking-widest hover:opacity-50 transition-opacity text-left md:text-right ${currentCaseId < casesData.length - 1 ? 'visible' : 'invisible'}`}
             >
               Следующий кейс →
             </button>
