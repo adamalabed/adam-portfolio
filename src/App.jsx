@@ -163,7 +163,6 @@ export default function Portfolio() {
       `}</style>
 
       {/* Navigation / Header */}
-      {/* FIX: Removed mix-blend-difference from mobile to prevent black header, added proper background handling */}
       <header className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-start z-50 text-black bg-white/90 backdrop-blur-sm md:bg-transparent md:backdrop-blur-none">
         <div className="font-medium tracking-tight text-sm md:text-base uppercase">
           <button onClick={closeCase} className="hover:opacity-60 transition-opacity text-left">
@@ -268,7 +267,8 @@ export default function Portfolio() {
           </section>
 
           {/* Cases Section */}
-          <section id="cases" className="mb-32 min-h-[60vh]">
+          {/* FIX: Added scroll-mt to account for fixed header height when scrolling */}
+          <section id="cases" className="mb-32 min-h-[60vh] scroll-mt-32 md:scroll-mt-40">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 border-b border-black pb-4">
               <h2 className="text-2xl md:text-4xl font-normal uppercase">Кейсы</h2>
               <span className="text-sm md:text-base opacity-50 mt-2 md:mt-0 max-w-md text-left md:text-right">Выберите кейс из списка ниже, чтобы узнать детали</span>
@@ -324,7 +324,6 @@ export default function Portfolio() {
             </article>
           )}
           
-          {/* FIX: Stacked navigation buttons on mobile (flex-col) to avoid layout issues */}
           <div className="mt-32 pt-12 border-t border-black/20 flex flex-col gap-6 md:flex-row md:justify-between md:gap-0">
             <button 
               onClick={prevCase} 
