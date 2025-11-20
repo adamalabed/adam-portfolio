@@ -7,11 +7,11 @@ const casesData = [
     title: "Beesline Cosmetics",
     subtitle: "Развитие Beesline Cosmetics на рынке MENA",
     content: {
-      "Контекст": "Beesline Cosmetics — международный бренд натуральной уходовой косметики, успешно закрепившийся в нишевых категориях, но сталкивающийся с ограниченным проникновением в более широкие массовые сегменты рынка MENA.<br><br>Компания находилась на этапе, когда устойчивый рост был возможен только через стратегические изменения: расширение продуктовой линейки, перераспределение фокуса между сегментами, улучшение клиентского опыта и усиление каналов дистрибуции.",
-      "Цель": "Обеспечить устойчивый рост бренда в регионах MENA за счет стратегии, операционной структурности и повышения качества клиентского пути.<br><br><strong>Ключевые задачи:</strong><br>0.1. Провести анализ рынка и конкурентной среды в MENA.<br>0.2. Определить сегменты с наибольшим потенциалом роста.<br>0.3. Разработать стратегию выхода на новые рынки и адаптацию продуктового портфеля.<br>0.4. Улучшить элементы клиентского опыта и программы удержания.<br>0.5. Предложить инициативы по расширению каналов продаж (ритейл + e-commerce).",
-      "Подход": "<strong>0.1. Аналитический блок</strong><br>Анализ категорий и динамики спроса в 6 странах региона. Benchmarking конкурентов по ценам, коммуникации, SKU и модели роста.<br><br><strong>0.2. Продуктово-стратегический анализ</strong><br>Сегментация целевой аудитории и построение клиентоцентричной карты потребностей. Ревизия текущего продуктового портфеля.<br><br><strong>0.3. Клиентский опыт</strong><br>Оценка текущих точек взаимодействия: покупка, повторный заказ, digital-каналы.<br><br><strong>0.4. Каналы продаж</strong><br>Оценка эффективности текущей дистрибуции. Моделирование потенциала роста при расширении каналов.",
-      "Моя роль": "0.1. Проанализировал рынок MENA и конкурентную среду.<br>0.2. Разработал стратегию выхода на два новых рынка.<br>0.3. Участвовал в формировании продуктовой стратегии.<br>0.4. Проработал элементы клиентского опыта и программы лояльности.<br>0.5. Подготовил рекомендации по расширению каналов продаж.",
-      "Результаты": "<strong>Коммерческие результаты:</strong><br>Рост продаж — около 15–18% в течение периода интеграции.<br>Укрепление позиций бренда в ключевых сегментах.<br>Выход на две новые страны региона.<br><br><strong>Стратегический эффект:</strong><br>Усиление присутствия бренда на международном рынке. Большая предсказуемость в планировании спроса."
+      "Контекст": "Beesline Cosmetics — международный бренд натуральной уходовой косметики, успешно закрепившийся в нишевых категориях, но сталкивающийся с ограниченным проникновением в более широкие массовые сегменты рынка MENA.\n\nКомпания находилась на этапе, когда устойчивый рост был возможен только через стратегические изменения: расширение продуктовой линейки, перераспределение фокуса между сегментами, улучшение клиентского опыта и усиление каналов дистрибуции.",
+      "Цель": "Обеспечить устойчивый рост бренда в регионах MENA за счет стратегии, операционной структурности и повышения качества клиентского пути.\n\nКлючевые задачи:\n0.1. Провести анализ рынка и конкурентной среды в MENA.\n0.2. Определить сегменты с наибольшим потенциалом роста.\n0.3. Разработать стратегию выхода на новые рынки и адаптацию продуктового портфеля.\n0.4. Улучшить элементы клиентского опыта и программы удержания.\n0.5. Предложить инициативы по расширению каналов продаж (ритейл + e-commerce).",
+      "Подход": "0.1. Аналитический блок\nАнализ категорий и динамики спроса в 6 странах региона. Benchmarking конкурентов по ценам, коммуникации, SKU и модели роста.\n\n0.2. Продуктово-стратегический анализ\nСегментация целевой аудитории и построение клиентоцентричной карты потребностей. Ревизия текущего продуктового портфеля.\n\n0.3. Клиентский опыт\nОценка текущих точек взаимодействия: покупка, повторный заказ, digital-каналы.\n\n0.4. Каналы продаж\nОценка эффективности текущей дистрибуции. Моделирование потенциала роста при расширении каналов.",
+      "Моя роль": "0.1. Проанализировал рынок MENA и конкурентную среду.\n0.2. Разработал стратегию выхода на два новых рынка.\n0.3. Участвовал в формировании продуктовой стратегии.\n0.4. Проработал элементы клиентского опыта и программы лояльности.\n0.5. Подготовил рекомендации по расширению каналов продаж.",
+      "Результаты": "Коммерческие результаты:\nРост продаж — около 15–18% в течение периода интеграции.\nУкрепление позиций бренда в ключевых сегментах.\nВыход на две новые страны региона.\n\nСтратегический эффект:\nУсиление присутствия бренда на международном рынке. Большая предсказуемость в планировании спроса."
     }
   },
   {
@@ -21,7 +21,7 @@ const casesData = [
     content: {
       "Контекст": "После ухода Renault из России правительство Москвы решило сохранить и перезапустить производственные мощности завода под брендом «Москвич». Завод оказался в сложной позиции: отсутствие международного присутствия, слабая узнаваемость бренда, зависимость от китайских комплектующих и санкционные ограничения.",
       "Цель": "Разработать комплексную стратегию, которая позволит «Москвичу» за 3–4 года выйти на выручку 140 млрд рублей к 2027 году за счет оптимизации цепочки ценности, локализации поставок, усиления дилерской сети и цифрового маркетинга.",
-      "Подход": "<strong>Исследование и аналитика:</strong> Анализ отраслевого контекста, сравнение с Lada, Geely, Chery.<br><strong>Продукт и стратегия:</strong> Отказ от долгого R&D в пользу оптимизации текущей линейки с фокусом на SUV и электромобили.<br><strong>Процессы:</strong> Модернизация мощностей, автоматизация, оптимизация логистики.<br><strong>Экономика:</strong> Финансовая модель роста выпуска на 7-10 тыс. авто ежегодно.",
+      "Подход": "Исследование и аналитика: Анализ отраслевого контекста, сравнение с Lada, Geely, Chery.\nПродукт и стратегия: Отказ от долгого R&D в пользу оптимизации текущей линейки с фокусом на SUV и электромобили.\nПроцессы: Модернизация мощностей, автоматизация, оптимизация логистики.\nЭкономика: Финансовая модель роста выпуска на 7-10 тыс. авто ежегодно.",
       "Моя роль": "Роль бизнес-аналитика и стратегического консультанта. Сбор и структурирование данных о рынке, подготовка сравнительных таблиц, разработка блоков по локализации поставщиков, формирование черновой финансовой модели.",
       "Результаты": "К 2027 году целевой ориентир — достижение общей выручки 140 млрд рублей, полное покрытие инвестиций, выход на стабильную прибыльность, экономия на логистике до 20% и закрепление присутствия в 12 новых регионах."
     }
@@ -76,17 +76,26 @@ const casesData = [
   }
 ];
 
-// --- REACT COMPONENT ---
-function App() {
+// --- MAIN COMPONENT ---
+export default function Portfolio() {
   const [currentCaseId, setCurrentCaseId] = useState(null);
+  const [isDetailView, setIsDetailView] = useState(false);
 
-  // Scroll to top whenever the view changes
+  // Scroll to top when view changes
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [currentCaseId]);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [isDetailView, currentCaseId]);
 
-  const openCase = (index) => setCurrentCaseId(index);
-  const closeCase = () => setCurrentCaseId(null);
+  // Handlers
+  const openCase = (index) => {
+    setCurrentCaseId(index);
+    setIsDetailView(true);
+  };
+
+  const closeCase = () => {
+    setIsDetailView(false);
+    setCurrentCaseId(null);
+  };
 
   const nextCase = () => {
     if (currentCaseId !== null && currentCaseId < casesData.length - 1) {
@@ -100,53 +109,128 @@ function App() {
     }
   };
 
-  const currentCaseData = currentCaseId !== null ? casesData[currentCaseId] : null;
+  // Helpers for formatting text with line breaks
+  const formatText = (text) => {
+    return text.split('\n').map((str, i) => <span key={i}>{str}<br/></span>);
+  };
 
   return (
-    <div className="bg-white text-[#1a1a1a] antialiased min-h-screen flex flex-col selection:bg-black selection:text-white font-sans">
-      
+    <div className="font-sans text-[#1a1a1a] bg-white min-h-screen flex flex-col selection:bg-black selection:text-white">
+      {/* Custom Styles that were in the <head> */}
+      <style>{`
+        body {
+          scroll-behavior: smooth;
+        }
+        /* Custom Cargo-like underline effect */
+        .hover-underline {
+            position: relative;
+            text-decoration: none;
+            padding-bottom: 2px;
+        }
+        .hover-underline::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            background-color: currentColor;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+        .hover-underline:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+        
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Fade animation */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
+
       {/* Navigation / Header */}
       <header className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-start z-50 mix-blend-difference text-black md:mix-blend-normal bg-white/90 backdrop-blur-sm md:bg-transparent md:backdrop-blur-none">
-        <div className="font-medium tracking-tight text-sm md:text-base uppercase cursor-pointer">
-          <button onClick={closeCase} className="hover:opacity-60 transition-opacity">ADAM Al-ABED</button>
+        <div className="font-medium tracking-tight text-sm md:text-base uppercase">
+          <button onClick={closeCase} className="hover:opacity-60 transition-opacity text-left">
+            ADAM Al-ABED
+          </button>
         </div>
+        
         <nav>
           <ul className="flex gap-6 text-sm md:text-base font-medium">
             <li>
-              <button onClick={closeCase} className="hover-underline uppercase tracking-wide">Обо мне</button>
+              <button 
+                onClick={() => { 
+                  if(isDetailView) closeCase(); 
+                  setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 100);
+                }} 
+                className="hover-underline uppercase tracking-wide cursor-pointer text-left"
+              >
+                Обо мне
+              </button>
             </li>
             <li>
-              <button onClick={closeCase} className="hover-underline uppercase tracking-wide">Кейсы</button>
+              <button 
+                onClick={() => { 
+                  if(isDetailView) closeCase(); 
+                  setTimeout(() => document.getElementById('cases')?.scrollIntoView({ behavior: 'smooth' }), 100);
+                }} 
+                className="hover-underline uppercase tracking-wide cursor-pointer text-left"
+              >
+                Кейсы
+              </button>
             </li>
           </ul>
         </nav>
       </header>
 
-      {/* HOME VIEW */}
-      {currentCaseId === null && (
-        <main className="flex-grow pt-32 md:pt-40 px-6 md:px-10 pb-20 max-w-screen-xl mx-auto w-full animate-fade-in">
+      {/* Main Content */}
+      {!isDetailView ? (
+        // --- HOME VIEW ---
+        <main id="home-view" className="flex-grow pt-32 md:pt-40 px-6 md:px-10 pb-20 max-w-screen-xl mx-auto w-full fade-in">
           
-          {/* Intro */}
-          <section className="mb-24 md:mb-32">
+          {/* Section 1: Intro */}
+          <section id="about" className="mb-24 md:mb-32">
             <div className="max-w-2xl">
               <h1 className="text-2xl md:text-4xl font-normal leading-tight mb-12">
                 Этот сайт – место, где можно увидеть, как я думаю, как принимаю решения и какие проекты собирал. 
                 <span className="opacity-50"> Без украшательств, но с деталями, которые обычно не помещаются в резюме.</span>
               </h1>
             </div>
+
+            {/* Divider */}
             <hr className="border-black border-t mb-12 opacity-20" />
+
             <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
               <div className="col-span-1 md:col-span-3">
                 <span className="text-xs uppercase tracking-widest opacity-50 sticky top-32">Контекст</span>
               </div>
               <div className="col-span-1 md:col-span-8 text-lg md:text-xl leading-relaxed space-y-8 font-light">
-                <p>Я учусь на медицинском и параллельно работаю с стратегическими задачами: считаю модели, разбираю процессы и помогаю командам принимать решения не вслепую.</p>
-                <p>Медицина дала мне дисциплину, устойчивость и привычку смотреть на причину, а не только на симптомы; консалтинг и проектная работа добавили к этому структуру, критическое мышление и умение собирать рабочие решения из неполных данных.</p>
+                <p>
+                  Я учусь на медицинском и параллельно работаю с стратегическими задачами: считаю модели, разбираю процессы и помогаю командам принимать решения не вслепую.
+                </p>
+                <p>
+                  Медицина дала мне дисциплину, устойчивость и привычку смотреть на причину, а не только на симптомы; консалтинг и проектная работа добавили к этому структуру, критическое мышление и умение собирать рабочие решения из неполных данных.
+                </p>
               </div>
             </div>
           </section>
 
-          {/* Experience */}
+          {/* Section 2: Experience */}
           <section className="mb-24 md:mb-32">
             <hr className="border-black border-t mb-12 opacity-20" />
             <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
@@ -154,13 +238,17 @@ function App() {
                 <span className="text-xs uppercase tracking-widest opacity-50 sticky top-32">Путь</span>
               </div>
               <div className="col-span-1 md:col-span-8 text-lg md:text-xl leading-relaxed space-y-8 font-light">
-                <p>Я попал в стратегический консалтинг не по случайности – во время учебы, я участвовал в нескольких кейс-чемпионатах, и моя команда часто выходила в финалы. Я не относился к этому как к разовому опыту: разбирал ошибки, улучшал структуру решений, и в итоге моя команда выходила в топ.</p>
-                <p>Как результат я выиграл грант на обучение в <a href="#" className="underline decoration-1 underline-offset-4 hover:no-underline">The Experts: School of Consulting</a>, где я научился собирать решения под давлением, держать логику и работать в команде так, чтобы результат был предсказуемым, а не случайным.</p>
+                <p>
+                  Я попал в стратегический консалтинг не по случайности – во время учебы, я участвовал в нескольких кейс-чемпионатах, и моя команда часто выходила в финалы. Я не относился к этому как к разовому опыту: разбирал ошибки, улучшал структуру решений, и в итоге моя команда выходила в топ.
+                </p>
+                <p>
+                  Как результат я выиграл грант на обучение в <a href="#" className="underline decoration-1 underline-offset-4 hover:no-underline">The Experts: School of Consulting</a>, где я научился собирать решения под давлением, держать логику и работать в команде так, чтобы результат был предсказуемым, а не случайным.
+                </p>
               </div>
             </div>
           </section>
 
-          {/* Work */}
+          {/* Section 3: Work */}
           <section className="mb-32">
             <hr className="border-black border-t mb-12 opacity-20" />
             <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
@@ -168,68 +256,83 @@ function App() {
                 <span className="text-xs uppercase tracking-widest opacity-50 sticky top-32">Опыт</span>
               </div>
               <div className="col-span-1 md:col-span-8 text-lg md:text-xl leading-relaxed space-y-8 font-light">
-                <p>Позже у меня появился и рабочий опыт: я занимался развитием и масштабированием проектов, руководил кросс-функциональной командой, улучшал операционную эффективность и повышал удовлетворенность клиентов.</p>
-                <p>Это научило меня смотреть на работу системно и видеть узкие места, которые можно исправить не за счёт героизма, а за счет структуры.</p>
+                <p>
+                  Позже у меня появился и рабочий опыт: я занимался развитием и масштабированием проектов, руководил кросс-функциональной командой, улучшал операционную эффективность и повышал удовлетворенность клиентов.
+                </p>
+                <p>
+                  Это научило меня смотреть на работу системно и видеть узкие места, которые можно исправить не за счёт героизма, а за счет структуры.
+                </p>
               </div>
             </div>
           </section>
 
-          {/* Cases List */}
+          {/* Cases Section */}
           <section id="cases" className="mb-32 min-h-[60vh]">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 border-b border-black pb-4">
               <h2 className="text-2xl md:text-4xl font-normal uppercase">Кейсы</h2>
               <span className="text-sm md:text-base opacity-50 mt-2 md:mt-0 max-w-md text-right">Выберите кейс из списка ниже, чтобы узнать детали</span>
             </div>
+            
             <div className="flex flex-col">
               {casesData.map((item, index) => (
                 <button 
-                  key={item.id}
-                  onClick={() => openCase(index)}
-                  className="group py-6 border-b border-black/10 flex justify-between items-center hover:pl-4 transition-all duration-300 hover:bg-gray-50 hover:pr-4 w-full text-left"
+                  key={index}
+                  onClick={() => openCase(index)} 
+                  className="group py-6 border-b border-black/10 flex justify-between items-center hover:pl-4 transition-all duration-300 hover:bg-gray-50 hover:pr-4 text-left w-full"
                 >
-                  <span className="text-xl md:text-3xl font-light group-hover:font-normal">{index + 1}. {item.title}</span>
-                  <span className="opacity-0 group-hover:opacity-100 transition-opacity text-sm uppercase tracking-wider">Посмотреть кейс →</span>
+                  <span className="text-xl md:text-3xl font-light group-hover:font-normal">
+                    {index + 1}. {item.title}
+                  </span>
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity text-sm uppercase tracking-wider">
+                    Посмотреть кейс →
+                  </span>
                 </button>
               ))}
             </div>
           </section>
-        </main>
-      )}
 
-      {/* DETAIL VIEW */}
-      {currentCaseId !== null && currentCaseData && (
-        <main className="flex-grow pt-32 md:pt-40 px-6 md:px-10 pb-20 max-w-screen-xl mx-auto w-full animate-fade-in">
+        </main>
+      ) : (
+        // --- DETAIL VIEW ---
+        <main id="case-detail-view" className="flex-grow pt-32 md:pt-40 px-6 md:px-10 pb-20 max-w-screen-xl mx-auto w-full fade-in">
           <button onClick={closeCase} className="mb-12 group flex items-center gap-2 text-sm uppercase tracking-widest opacity-60 hover:opacity-100 transition-opacity">
             <span>←</span> Назад к списку
           </button>
 
-          <article>
-            <h1 className="text-3xl md:text-6xl font-normal uppercase mb-6 leading-tight">{currentCaseData.title}</h1>
-            <p className="text-xl md:text-2xl font-light mb-16 max-w-3xl text-neutral-600">{currentCaseData.subtitle}</p>
+          {currentCaseId !== null && (
+            <article className="fade-in">
+              <h1 className="text-3xl md:text-6xl font-normal uppercase mb-6 leading-tight">
+                {casesData[currentCaseId].title}
+              </h1>
+              <p className="text-xl md:text-2xl font-light mb-16 max-w-3xl text-neutral-600">
+                {casesData[currentCaseId].subtitle}
+              </p>
 
-            <div className="space-y-20">
-              {Object.entries(currentCaseData.content).map(([key, value]) => (
-                <div key={key} className="grid grid-cols-1 md:grid-cols-12 gap-8 border-t border-black/10 pt-8">
-                  <div className="col-span-1 md:col-span-3">
-                    <span className="text-xs uppercase tracking-widest opacity-50 sticky top-32 text-black">{key}</span>
+              <div className="space-y-20">
+                {Object.entries(casesData[currentCaseId].content).map(([key, value], i) => (
+                  <div key={i} className="grid grid-cols-1 md:grid-cols-12 gap-8 border-t border-black/10 pt-8">
+                    <div className="col-span-1 md:col-span-3">
+                      <span className="text-xs uppercase tracking-widest opacity-50 sticky top-32 text-black">{key}</span>
+                    </div>
+                    <div className="col-span-1 md:col-span-9 text-lg md:text-xl leading-relaxed font-light">
+                      {formatText(value)}
+                    </div>
                   </div>
-                  <div className="col-span-1 md:col-span-9 text-lg md:text-xl leading-relaxed font-light" dangerouslySetInnerHTML={{ __html: value }}>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </article>
-
+                ))}
+              </div>
+            </article>
+          )}
+          
           <div className="mt-32 pt-12 border-t border-black/20 flex justify-between">
             <button 
               onClick={prevCase} 
-              className={`text-sm uppercase tracking-widest hover:opacity-50 transition-opacity ${currentCaseId === 0 ? 'invisible' : ''}`}
+              className={`text-sm uppercase tracking-widest hover:opacity-50 transition-opacity ${currentCaseId > 0 ? 'visible' : 'invisible'}`}
             >
               ← Предыдущий кейс
             </button>
             <button 
               onClick={nextCase} 
-              className={`text-sm uppercase tracking-widest hover:opacity-50 transition-opacity ${currentCaseId === casesData.length - 1 ? 'invisible' : ''}`}
+              className={`text-sm uppercase tracking-widest hover:opacity-50 transition-opacity ${currentCaseId < casesData.length - 1 ? 'visible' : 'invisible'}`}
             >
               Следующий кейс →
             </button>
@@ -243,15 +346,16 @@ function App() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <a href="mailto:adamalabedd@gmail.com" className="text-2xl md:text-4xl font-normal hover:opacity-50 transition-opacity flex items-center gap-2 group">
             ADAMALABEDD@GMAIL.COM
-            <svg className="w-6 h-6 md:w-8 md:h-8 transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
+            <svg className="w-6 h-6 md:w-8 md:h-8 transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 17L17 7M17 7H7M17 7V17"></path>
+            </svg>
           </a>
+          
           <div className="text-xs opacity-40 uppercase tracking-widest">
-            © 2025 Adam Alabedd
+            © 2025 NISFALDAM
           </div>
         </div>
       </footer>
     </div>
   );
 }
-
-export default App;
