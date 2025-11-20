@@ -271,7 +271,7 @@ export default function Portfolio() {
           <section id="cases" className="mb-32 min-h-[60vh]">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 border-b border-black pb-4">
               <h2 className="text-2xl md:text-4xl font-normal uppercase">Кейсы</h2>
-              <span className="text-sm md:text-base opacity-50 mt-2 md:mt-0 max-w-md text-right">Выберите кейс из списка ниже, чтобы узнать детали</span>
+              <span className="text-sm md:text-base opacity-50 mt-2 md:mt-0 max-w-md text-left md:text-right">Выберите кейс из списка ниже, чтобы узнать детали</span>
             </div>
             
             <div className="flex flex-col">
@@ -345,13 +345,27 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="px-6 md:px-10 pb-10 mt-auto">
         <hr className="border-black border-t mb-10 opacity-100" />
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-          <a href="mailto:adamalabedd@gmail.com" className="text-2xl md:text-4xl font-normal hover:opacity-50 transition-opacity flex items-center gap-2 group">
-            ADAMALABEDD@GMAIL.COM
-            <svg className="w-6 h-6 md:w-8 md:h-8 transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 17L17 7M17 7H7M17 7V17"></path>
-            </svg>
-          </a>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+          <div className="flex flex-col gap-2">
+            <a href="mailto:adamalabedd@gmail.com" className="text-2xl md:text-4xl font-normal hover:opacity-50 transition-opacity flex items-center gap-2 group">
+              ADAMALABEDD@GMAIL.COM
+              <svg className="w-6 h-6 md:w-8 md:h-8 transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 17L17 7M17 7H7M17 7V17"></path>
+              </svg>
+            </a>
+            
+            <a 
+              href="https://drive.google.com/file/d/1OaWmAl9fyHkYLpL_N-9Ov5r1z2YW2OA4/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-lg md:text-xl font-light hover:opacity-50 transition-opacity flex items-center gap-2 group w-max"
+            >
+              CV / RESUME
+              <svg className="w-4 h-4 md:w-5 md:h-5 transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 17L17 7M17 7H7M17 7V17"></path>
+              </svg>
+            </a>
+          </div>
           
           <div className="text-xs opacity-40 uppercase tracking-widest">
             © 2025 NISFALDAM
