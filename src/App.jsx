@@ -340,7 +340,7 @@ export default function Portfolio() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 17L17 7M17 7H7M17 7V17"></path>
               </svg>
             </a>
-            <a href="https://drive.google.com/file/d/1bPcO87ORH-yp0bPmNVhVF9gv37apkPEm/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-lg md:text-xl font-light hover:opacity-50 transition-opacity flex items-center gap-2 group w-max">
+            <a href="https://drive.google.com/file/d/1fJKqLBi3OaVvnPu37-i5XZyDRmOzr8E5/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-lg md:text-xl font-light hover:opacity-50 transition-opacity flex items-center gap-2 group w-max">
               CV / RESUME
               <svg className="w-4 h-4 md:w-5 md:h-5 transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 17L17 7M17 7H7M17 7V17"></path>
